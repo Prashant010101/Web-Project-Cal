@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+ 
+}
+
+.button{
+  width: 60px;
+  padding: 20px;
+  margin: 5px;
+  border:none;
+  border-radius: 50%;
+  cursor: pointer;
+  /*background: transparent;*/
+  background-color: #343d45;
+  color: aliceblue;
+  box-shadow: -1px -5px -10px rgba(255, 255, 255, 0.5);
+  
+}
+
+.row{
+  margin: 8px 0;
+  
+}
+
+.row input{
+
+  width: 291px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  text-decoration: dotted;
+  background: transparent;
+  cursor: pointer;
+  font-size: 40px;
+  color: #ffffff;
+}
+.box{
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  width: fit-content;
+  margin-inline: auto;
+  border-radius: 5%;
+  border: 2px solid #717377;
+  padding: 20px;
+  height: fit-content;
+  box-shadow: 0px 10px 15px;
+  
+}
+.eqBTN{
+  background-color: #fb7c14;
+}
+.operator{
+  color: rgb(20, 239, 20);
+  font-size: 17px;
+  font: bold;
+} 
+
+.del{
+  color: rgba(255, 64, 0, 0.764);
+}
